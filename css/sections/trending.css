@@ -90,16 +90,6 @@
     background-position: center;
 }
 
-.trending-sushi,
-.trending__image{
-    background-image: url(../../assets/japanese_sushi.png);
-}
-
-.trending-drink,
-.trending__image{
-    background-image: url(../../assets/japanese_drinks.png);
-}
-
 .trending__image img{
     width: 254px;
     height: 260px;
@@ -128,7 +118,7 @@
 
 .trending__arrow-top{
     top: -10.5px;
-    left: -12%;
+    left: 12%;
 }
 
 .trending__arrow-bottom{

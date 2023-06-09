@@ -18,7 +18,7 @@
     z-index: -1;
 }
 
-.header__logo h4{
+.header__logo h4 a{
     padding-left: 30px;
     color: #fff;
     font-size: 24px;

@@ -1,0 +1,73 @@
+.subscription{
+    padding: 64px;
+    background: var(--primary-color);
+    background-image: url(../../assets/subscribe_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription h2{
+    font-family: var(--playfair-display);
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 123px;
+}
+
+.subscription p{
+    font-family: var(--plus-jakarta-sans);
+    font-size: 18px;
+    color: var(--color-white);
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+}
+
+.subscription__form{
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 14px 14px 14px 24px;
+    border-radius: 50px;
+    margin-top: 40px;
+    min-width: 480px;
+    display: flex;
+    gap: 10px;
+}
+
+.subscription__form input{
+    flex: 1;
+    font-size: 18px;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--color-white);
+    opacity: 0.5;
+    font-family: var(--plus-jakarta-sans);
+}
+
+.subscription__form input::placeholder{
+    color: var(--color-white);
+    opacity: 0.5;
+    font-family: var(--plus-jakarta-sans);
+}
+
+.subscription__form button{
+    padding: 24px 50px;
+    background: var(--secondary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
